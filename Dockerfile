@@ -1,22 +1,37 @@
-# Use the .NET SDK image for building and running tests
+# -------------------------
+# 1. Build Stage
+# -------------------------
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+
 WORKDIR /src
 
-# Copy the entire repository into the container
+# Copy full repo first (avoid broken paths)
 COPY . ./
 
-# Restore dependencies
-RUN dotnet restore "TestAutomationReqnrollCSharpProject.sln"
+# Restore solution
+RUN dotnet restore ReqnrollProjectCucumberBDD.sln
 
-# Build the solution in Release configuration
-RUN dotnet build "TestAutomationReqnrollCSharpProject.sln" -c Release
+# Build the project
+RUN dotnet build ReqnrollProjectCucumberBDD.sln -c Release --no-restore
 
-# Final image for running tests
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS testruntime
-WORKDIR /src
+# -------------------------
+# 2. Test Stage
+# -------------------------
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS testrunner
 
-# Copy the source and build output
+WORKDIR /app
+
+# Copy everything from the build stage
 COPY --from=build /src ./
 
-# Run tests when the container starts
-ENTRYPOINT ["dotnet", "test", "TestAutomationReqnrollCSharpProject.sln", "--logger:console"]
+# Create reports directory
+RUN mkdir -p /app/reports
+
+# Run tests + generate report
+RUN dotnet test ReqnrollProjectCucumberBDD.sln \
+    --logger "trx;LogFileName=test_results.trx" \
+    --results-directory /app/reports \
+    --collect:"XPlat Code Coverage"
+
+# Keep container alive so we can inspect reports
+CMD ["bash", "-c", "echo 'Tests completed. Reports stored in /app/reports'; tail -f /dev/null"]

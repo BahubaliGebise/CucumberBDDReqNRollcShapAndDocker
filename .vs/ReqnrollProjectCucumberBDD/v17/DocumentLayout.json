@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,10 +29,6 @@
               "Name": "ST:0:0:{bdada759-5db7-402f-96e3-402b17c8c5b4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LoginDemo.feature",
@@ -44,6 +40,10 @@
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
               "WhenOpened": "2025-11-18T14:46:01.488Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }
