@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD.csproj": {}
+    "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\ReqnrollProjectCucumberBDD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD.csproj": {
+    "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\ReqnrollProjectCucumberBDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD.csproj",
+        "projectUniqueName": "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\ReqnrollProjectCucumberBDD.csproj",
         "projectName": "ReqnrollProjectCucumberBDD",
-        "projectPath": "C:\\Users\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD.csproj",
+        "projectPath": "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\ReqnrollProjectCucumberBDD.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD\\obj\\",
+        "outputPath": "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

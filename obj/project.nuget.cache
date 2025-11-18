@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lsNr5fmD5UA=",
+  "dgSpecHash": "GFiiJ9kkgoc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD\\ReqnrollProjectCucumberBDD.csproj",
+  "projectFilePath": "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\ReqnrollProjectCucumberBDD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\chromium\\2025.11.1\\chromium.2025.11.1.nupkg.sha512",
