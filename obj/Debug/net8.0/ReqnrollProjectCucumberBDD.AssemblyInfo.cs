@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReqnrollProjectCucumberBDD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+368f2a30f669d737eae08e07af64900091e7a582")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+880bd79c71f006c12c1a3f58fb04b6945f51a0c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReqnrollProjectCucumberBDD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReqnrollProjectCucumberBDD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

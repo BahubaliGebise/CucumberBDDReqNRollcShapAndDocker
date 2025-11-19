@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E98786F8-491E-2EFB-035E-A329C9D3D434}|ReqnrollProjectCucumberBDD.csproj|c:\\users\\dockerrepocsharp\\cucumberbddreqnrollcshapanddocker\\stepdefinitions\\loginsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98786F8-491E-2EFB-035E-A329C9D3D434}|ReqnrollProjectCucumberBDD.csproj|solutionrelative:stepdefinitions\\loginsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E98786F8-491E-2EFB-035E-A329C9D3D434}|ReqnrollProjectCucumberBDD.csproj|c:\\users\\dockerrepocsharp\\cucumberbddreqnrollcshapanddocker\\features\\logindemo.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E98786F8-491E-2EFB-035E-A329C9D3D434}|ReqnrollProjectCucumberBDD.csproj|solutionrelative:features\\logindemo.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,12 +29,21 @@
               "Name": "ST:1:0:{bdada759-5db7-402f-96e3-402b17c8c5b4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{bdada759-5db7-402f-96e3-402b17c8c5b4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginSteps.cs",
+              "DocumentMoniker": "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\StepDefinitions\\LoginSteps.cs",
+              "RelativeDocumentMoniker": "StepDefinitions\\LoginSteps.cs",
+              "ToolTip": "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\StepDefinitions\\LoginSteps.cs",
+              "RelativeToolTip": "StepDefinitions\\LoginSteps.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwC0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T20:56:32.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginDemo.feature",
               "DocumentMoniker": "C:\\Users\\DockerRepoCsharp\\CucumberBDDReqNRollcShapAndDocker\\Features\\LoginDemo.feature",
               "RelativeDocumentMoniker": "Features\\LoginDemo.feature",
@@ -38,8 +51,7 @@
               "RelativeToolTip": "Features\\LoginDemo.feature",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-11-18T14:46:01.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T14:46:01.488Z"
             },
             {
               "$type": "Bookmark",
